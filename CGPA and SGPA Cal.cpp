@@ -24,6 +24,9 @@ int main()
             serial++;
         }
         SGPA =  sumOf_credit_Grade / TotalCredit * 1.0;
+         cout << "-------------------------------------------\n";
+         cout <<  "\t" << "Total Credit : "  << TotalCredit;
+         cout << "\n-------------------------------------------\n";
         cout << "-------------------------------------------\n";
         cout <<  "\t" <<setprecision(2) << fixed << "Your SGPA : "  << SGPA;
         cout << "\n-------------------------------------------\n";

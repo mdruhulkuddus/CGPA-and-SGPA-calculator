@@ -9,17 +9,22 @@ int main()
     cin >> Total_courses;
     while(Total_courses--)
     {
-        int credit, grade ;
+        int credit; double grade ;
         cout <<  "\n" <<"Credit of " << serial << " NO course : ";
         cin >> credit;
         cout << "\n" << "Grade of " << serial << " NO course : ";
         cin >> grade;
-        sumOf_credit_Grade += credit * grade;
         TotalCredit += credit;
+        sumOf_credit_Grade += credit * grade;
         serial++;
     }
     SGPA =  sumOf_credit_Grade / TotalCredit * 1.0;
     cout << "-------------------------------------------\n";
+    cout <<  "\t" << "Total Credit : "  << TotalCredit;
+    cout << "\n-------------------------------------------\n";
+    cout << "-------------------------------------------\n";
     cout <<  "\t" <<setprecision(2) << fixed << "Your SGPA : "  << SGPA;
     cout << "\n-------------------------------------------\n";
+
+    return 0;
 }

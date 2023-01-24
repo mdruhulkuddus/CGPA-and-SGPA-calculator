@@ -21,6 +21,9 @@ int main()
     }
     CGPA =  sumOf_credit_Grade / TotalCredit;
     cout << "-------------------------------------------\n";
+    cout <<  "\t" << "Total Credit : "  << TotalCredit;
+    cout << "\n-------------------------------------------\n";
+    cout << "-------------------------------------------\n";
     cout <<  "\t" <<setprecision(2) << fixed << "Your CGPA : "  << CGPA;
     cout << "\n-------------------------------------------\n";
 }
